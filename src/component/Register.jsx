@@ -12,7 +12,7 @@ import { useAuth } from "../contexts/authContext";
 
 const Register = () => {
   const navigate = useNavigate();
-  const { loading } = useAuth(); // Assuming loading reflects the authentication state
+  const { loading } = useAuth(); 
 
   const initialValues = {
     name: "",
